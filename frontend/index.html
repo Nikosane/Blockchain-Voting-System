@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain-Based Voting System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blockchain-Based Voting System</h1>
+
+        <!-- Registration Section -->
+        <section id="registration">
+            <h2>Voter Registration</h2>
+            <input type="text" id="voterAddress" placeholder="Enter your Ethereum address">
+            <button id="registerBtn">Register</button>
+            <p id="registerMessage"></p>
+        </section>
+
+        <!-- Voting Section -->
+        <section id="voting">
+            <h2>Vote for a Candidate</h2>
+            <select id="candidateList">
+                <!-- Options will be dynamically loaded -->
+            </select>
+            <button id="voteBtn">Vote</button>
+            <p id="voteMessage"></p>
+        </section>
+
+        <!-- Results Section -->
+        <section id="results">
+            <h2>Election Results</h2>
+            <button id="resultsBtn">View Results</button>
+            <div id="resultsDisplay">
+                <!-- Results will be dynamically loaded -->
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
